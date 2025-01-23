@@ -18,6 +18,6 @@ int main(){
         printf("Fail");
     }
     else{
-        printf("Invalid Grade");
+        printf(" ");
     }
 }
