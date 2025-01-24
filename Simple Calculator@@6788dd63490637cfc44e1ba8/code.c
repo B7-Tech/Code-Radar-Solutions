@@ -1,8 +1,8 @@
 #include <stdio.h>
 int main(){
-    int n1, n2, r;
+    float n1, n2, r;
     char op;
-    scanf("%d %d %c", &n1, &n2, &op);
+    scanf("%f %f %c", &n1, &n2, &op);
     if (op == '+'){
         r = n1 + n2;
     }
@@ -18,6 +18,6 @@ int main(){
     else{
         printf("error");
     }
-    printf("%d", r);
+    printf("%.0f", r);
     return 0;
 }
