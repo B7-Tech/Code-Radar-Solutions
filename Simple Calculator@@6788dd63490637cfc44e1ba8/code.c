@@ -17,11 +17,11 @@ int main(){
             r = n1/n2;
         }
         else{
-            printf("error");
+            printf("Error");
         }
     }
     else{
-        printf("error");
+        printf("Error");
     }
     printf("%.0f", r);
     return 0;
