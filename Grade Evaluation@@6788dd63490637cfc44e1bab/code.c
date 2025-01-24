@@ -17,4 +17,5 @@ int main(){
     else if (ch == 'F'){
         printf("Fail");
     }
+    return 0;
 }
