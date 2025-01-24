@@ -13,7 +13,12 @@ int main(){
         r = n1*n2;
     }
     else if (op == '/'){
-        r = n1/n2;
+        if (n2 != 0){
+            r = n1/n2;
+        }
+        else{
+            printf("error");
+        }
     }
     else{
         printf("error");
