@@ -19,4 +19,5 @@ int main(){
         printf("error");
     }
     printf("%d", r);
+    return 0;
 }
