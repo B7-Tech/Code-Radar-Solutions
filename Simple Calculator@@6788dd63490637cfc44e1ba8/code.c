@@ -16,7 +16,7 @@ int main(){
         r = n1/n2;
     }
     else{
-        printf("error")
+        printf("error");
     }
     printf("%d", r);
 }
