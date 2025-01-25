@@ -1,4 +1,8 @@
 #include <stdio.h>
 int main(){
-    printf("HELLO")
+    char ch;
+    scanf("%c", &ch);
+    if (ch == 'A'){
+    printf("Excellent")
+    }
 }
