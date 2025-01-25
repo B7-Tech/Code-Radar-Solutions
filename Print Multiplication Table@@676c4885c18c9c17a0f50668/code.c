@@ -2,6 +2,7 @@
 int main(){
     int i, N;
     i == 1;
+    i++;
     scanf("%d", &N);
     while (i<11){
         printf(N "*" i "=" N*i);
