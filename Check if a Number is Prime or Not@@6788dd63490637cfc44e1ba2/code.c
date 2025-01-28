@@ -2,13 +2,15 @@
 int main(){
     int a;
     scanf("%d", &a);
-    while(a >1){
-        if (a%1 == 0 && a%a == 0){
-            printf("Prime");
-        }
-    }
-    else{
+    if (a <= 1){
         printf("Not Prime");
     }
+    for (int i =2; i<a; i++){
+        if a%i == 0{
+            printf("Not Prime");
+        }
+        return 0;
+    }
+    printf("Prime");
     return 0;
 }
