@@ -1,6 +1,6 @@
 #include <stdio.h>
 int main(){
-   float n = 1, i;
+   float n = 1;
     scanf("%f", &n);
     if (n>1)
     {
