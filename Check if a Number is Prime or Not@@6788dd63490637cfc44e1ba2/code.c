@@ -3,9 +3,7 @@ int main()
 {
    float n;
     scanf("%f", &n);
-    if (n>1)
-    {
-        if (n%n == 0)
+    if (n%n == 0)
         {
             printf("Prime");
         }
