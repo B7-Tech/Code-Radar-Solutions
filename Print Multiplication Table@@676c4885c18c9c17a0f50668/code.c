@@ -1,5 +1,4 @@
 #include <stdio.h>
-#include <wchar.h>
 int main(){
     int N, i;
     scanf("%d", &N);
