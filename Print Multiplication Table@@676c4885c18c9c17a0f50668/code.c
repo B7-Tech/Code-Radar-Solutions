@@ -1,11 +1,9 @@
 #include <stdio.h>
 int main(){
-    int i, N;
-    int i == 1;
-    i++;
+    int N,i;
     scanf("%d", &N);
-    while (i<11){
-        printf(N "*" i "=" N*i);
+    for (i=1; i<= 10; ++i){
+    printf("%d * %d = %d \n", n, i, n*i);
     }
     return 0;
 }
