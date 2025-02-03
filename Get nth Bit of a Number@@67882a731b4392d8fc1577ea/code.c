@@ -4,6 +4,6 @@ int main(){
     scanf("%d", &num);
     scanf("%d", &bit_position);
     bit_status = (num >> n) & 1;
-    printf("%d", bit_position);
+    printf("%d", bit_status);
     return 0;
 }
