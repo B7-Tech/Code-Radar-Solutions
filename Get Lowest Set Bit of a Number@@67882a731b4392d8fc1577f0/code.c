@@ -10,4 +10,5 @@ int main(){
         break;
     }
     printf("%d", o);
+    return 0;
 }
