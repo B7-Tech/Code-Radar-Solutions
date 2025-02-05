@@ -7,5 +7,5 @@ int main(){
         if ((n>> i) & 1)
         break;
     }
-    printf("%d", INT_SIZE ; i++);
+    printf("%d", INT_SIZE - i);
 }
