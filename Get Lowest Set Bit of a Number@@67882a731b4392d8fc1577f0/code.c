@@ -2,8 +2,8 @@
 #define INT_SIZE sizeof(int)*8
 int main(){
     int n,i, o;
-    o = INT_SIZE - 1;
     scanf("%d", &n);
+    o = INT_SIZE - 1;
     for (i = 0; i<INT_SIZE; i++){
         if ((n>> i) & 1)
         o = i;
