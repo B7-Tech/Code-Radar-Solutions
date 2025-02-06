@@ -2,7 +2,7 @@
 
 int main() {
     int rows;
-    printf("Rows ki sankhya daalain: ");
+   
     scanf("%d", &rows);
 
     for(int i = 1; i <= rows; i++) {
