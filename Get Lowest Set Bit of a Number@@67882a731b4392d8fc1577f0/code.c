@@ -5,7 +5,6 @@ int main(){
     int p = 0;
     while ((n & 1) == 0){
         n >> 1;
-        p++;
-    }
+        p++; }
     printf("%d", p);
 }
