@@ -3,7 +3,7 @@
 int main(){
     int a, b;
     scanf("%d %d", &a, &b);
-    int m = fmax(a, b);
+    int m = (int)fmax(a, b);
     printf("%d", m);
     return 0;
 }
