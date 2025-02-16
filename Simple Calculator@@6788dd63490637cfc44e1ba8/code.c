@@ -16,10 +16,7 @@ int main(){
         if (n2 != 0){
             r = n1/n2;
         }
-        else{
-            printf("error");
-            return 0;
-        }
+
     }
     else{
         printf("error");
