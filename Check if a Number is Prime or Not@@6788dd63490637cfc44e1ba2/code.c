@@ -1,18 +1,18 @@
 #include <stdio.h>
-int main(){
-    int n = 1;
+#include <math.h>
+int main() {
+    int n;
     scanf("%d", &n);
-    if (n>1){
-        if (n%1 == 0 && n%n == 0){
-            printf("Prime");
-        }
-        else{
-            printf("Not Prime");
-        }
+    if (n <= 1) {
+        printf("Not Prime");
         return 0;
     }
-    else{
-        printf("Not Prime");
+    for (int i = 2; i <= sqrt(n); i++) {
+        if (n % i == 0) {
+            printf("Not Prime"); 
+            return 0;
+        }
     }
+    printf("Prime");
     return 0;
 }
