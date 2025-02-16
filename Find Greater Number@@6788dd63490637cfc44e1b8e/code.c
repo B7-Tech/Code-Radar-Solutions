@@ -1,8 +1,11 @@
 #include <stdio.h>
 int main(){
-    int a, b;
+    int a,b;
     scanf("%d %d", &a, &b);
-    int m = fmax(a, b);
-    printf("%d", m);
-    return 0;
+    if (a>b){
+        printf("%d", a);
+    }
+    else{
+        printf("%d", b);
+    }
 }
