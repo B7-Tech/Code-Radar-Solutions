@@ -1,22 +1,27 @@
 #include <stdio.h>
-int main(){
+#include <limits.h> // For INT_MIN
+
+int main() {
     int n;
     scanf("%d", &n);
     int arr[n], largest, slargest;
-    for(int i = 0; i<n; i++){
+    
+    for (int i = 0; i < n; i++) {
         scanf("%d", &arr[i]);
     }
+
     largest = arr[0];
-    slargest = -1;
-    for(int i = 0; i<n; i++){
-        if (arr[i] > largest){
-            slargest = largest;
+    slargest = INT_MIN; // Initialize slargest with the smallest possible value
+
+    for (int i = 1; i < n; i++) {
+        if (arr[i] > largest) {
+            slargest = largest;  // Update slargest before updating largest
             largest = arr[i];
-        }
-        else if(arr[i] > slargest && arr[i]!= largest){
+        } else if (arr[i] > slargest && arr[i] != largest) {
             slargest = arr[i];
         }
     }
+
     printf("%d", slargest);
     return 0;
 }
