@@ -4,7 +4,7 @@ int main(){
     scanf("%d", &n);
     int arr[n], largest, slargest;
     for(int i = 0; i<n; i++){
-        scanf("%d", &arr[n]);
+        scanf("%d", &arr[i]);
     }
     largest = arr[0];
     slargest = -1;
