@@ -10,8 +10,8 @@ int main(){
     slargest = -1;
     for(i = 0; i<n; i++){
         if (arr[i] > largest){
-            largest = arr[i];
             slargest = largest;
+            largest = arr[i];
         }
         else if(arr[i] > slargest && arr[i]!= largest){
             slargest = arr[i];
