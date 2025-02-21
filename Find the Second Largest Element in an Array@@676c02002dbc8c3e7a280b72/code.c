@@ -13,6 +13,9 @@ int main(){
             largest = arr[i];
             slargest = largest;
         }
+        else if(arr[i] > slargest && arr[i]!= largest){
+            slargest = arr[i];
+        }
     }
     printf("%d", slargest);
 }
