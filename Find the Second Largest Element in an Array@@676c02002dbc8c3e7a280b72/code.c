@@ -7,7 +7,7 @@ int main(){
         scanf("%d", &arr[i]);
     }
     largest = arr[0];
-    slargest = -100;
+    slargest = -1;
     for(int i = 0; i<n; i++){
         if (arr[i] > largest){
             slargest = largest;
