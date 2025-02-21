@@ -18,4 +18,5 @@ int main(){
         }
     }
     printf("%d", slargest);
+    return 0;
 }
