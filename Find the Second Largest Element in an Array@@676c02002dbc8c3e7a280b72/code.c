@@ -1,5 +1,4 @@
 #include <stdio.h>
-#include <limits.h>
 int main(){
     int n;
     scanf("%d", &n);
@@ -8,7 +7,7 @@ int main(){
         scanf("%d", &arr[i]);
     }
     largest = arr[0];
-    slargest = INT_MIN;
+    slargest = -1000;
     for(int i = 0; i<n; i++){
         if (arr[i] > largest){
             slargest = largest;
