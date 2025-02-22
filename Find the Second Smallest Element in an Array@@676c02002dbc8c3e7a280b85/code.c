@@ -21,7 +21,7 @@ int main(){
     if (ssmallest == INT_MIN){
         printf("-1");
     }
-    else if {
+    else{
         printf("%d", ssmallest);
     }
 }
