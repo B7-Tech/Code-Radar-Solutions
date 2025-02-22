@@ -10,7 +10,7 @@ int main(){
         if (arr[i] <= arr[i-1]){
             printf("Sorted");
         }
-        else{
+        else if {
             printf("Not Sorted");
         }
     }
