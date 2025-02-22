@@ -18,7 +18,7 @@ int main(){
             ssmallest = arr[i];
         }
     }
-    if (ssmallest == INT_MIN){
+    if (ssmallest == INT_MAX){
         printf("-1");
     }
     else{
