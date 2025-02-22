@@ -10,8 +10,5 @@ int main(){
         if (arr[i] <= arr[i-1]){
             printf("Sorted");
         }
-        else{
-            printf("Not Sorted");
-        }
     }
 }
