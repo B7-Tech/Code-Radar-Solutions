@@ -15,7 +15,7 @@ int main(){
             smallest = arr[i];
         }
         else if (arr[i] < ssmallest && arr[i] != smallest){
-            smallest = arr[i];
+            ssmallest = arr[i];
         }
     }
     if (ssmallest == INT_MIN){
