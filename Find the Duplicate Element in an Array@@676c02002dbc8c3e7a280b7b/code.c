@@ -6,7 +6,7 @@ int main() {
     for (int i = 0; i < n; i++) {
         scanf("%d", &arr[i]);
     }
-    printf("Duplicate elements in the array are: ");
+    printf("");
     // Checking for duplicates
     int foundDuplicate = 0; // Flag to check if any duplicate is found
     for (int i = 0; i < n; i++) {
