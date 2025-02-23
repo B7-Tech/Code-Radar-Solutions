@@ -7,21 +7,15 @@ int main() {
         scanf("%d", &arr[i]);
     }
     printf("");
-    // Checking for duplicates
-    int foundDuplicate = 0; // Flag to check if any duplicate is found
+    int foundDuplicate = 0;
     for (int i = 0; i < n; i++) {
         for (int j = i + 1; j < n; j++) {
             if (arr[i] == arr[j]) {
                 printf("%d ", arr[i]);
                 foundDuplicate = 1;
-                break;  // Avoid printing the same duplicate multiple times
+                break;
             }
         }
     }
-    
-    if (!foundDuplicate) {
-        printf("No duplicates found.");
-    }
-    
     return 0;
 }
