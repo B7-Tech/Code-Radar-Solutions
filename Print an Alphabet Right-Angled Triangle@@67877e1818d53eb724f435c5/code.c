@@ -6,6 +6,6 @@ int main(){
         for(char ch ='A'; ch<='A'+ i; ch++){
             printf("%c", ch);
         }
-            printf("\n");
+            printf("/n");
     }
 }
