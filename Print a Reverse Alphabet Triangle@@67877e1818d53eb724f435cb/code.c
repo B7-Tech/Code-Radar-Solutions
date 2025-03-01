@@ -1,9 +1,13 @@
 #include <stdio.h>
 int main() {
-    int i, j, N;
-    for(j = 0; j < N; j++) {
-        printf("%c ", 'A' + j);
+    int N;
+    scanf("%d", &N);
+    for (int i = 0; i < N; i++) {
+        for (char ch = 'A'; ch <= 'A' + (N - i - 1); ch++) {
+            printf("%c ", ch);
+        }
+        printf("\n");
     }
-    printf("%c\n", 'A');
+
     return 0;
 }
