@@ -30,22 +30,25 @@ void rotateArray(int arr[], int N, int K) {
 int main() {
     int N, K;
     
-    // Read input
+    // Read size of array
     scanf("%d", &N);
+    
     int arr[N];
     
+    // Read array elements, each on a new line
     for (int i = 0; i < N; i++) {
         scanf("%d", &arr[i]);
     }
     
+    // Read the number of rotations K
     scanf("%d", &K);
     
     // Rotate the array
     rotateArray(arr, N, K);
     
-    // Print the rotated array
+    // Print the rotated array, each element in a new line
     for (int i = 0; i < N; i++) {
-        printf("%d ", arr[i]);
+        printf("%d\n", arr[i]);
     }
     
     return 0;
