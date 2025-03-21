@@ -1,5 +1,7 @@
 #include <stdio.h>
+#include <stdlib.h>
 int sum_of_digits(int num) {
+    num = abs(num)
     int sum = 0;
     while (num > 0) {
         sum += num % 10; 
