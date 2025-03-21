@@ -8,8 +8,8 @@ int sum_of_digits(int num) {
     return sum;
 }
 
-void sum_of_digits_in_array(int arr[], int size) {
-    for (int i = 0; i < size; i++) {
+void sum_of_digits_in_array(int arr[], int n) {
+    for (int i = 0; i < n; i++) {
         printf("%d ", sum_of_digits(arr[i]));  
     }
 }
@@ -17,7 +17,7 @@ void sum_of_digits_in_array(int arr[], int size) {
 int main() {
     int n;
     scanf("%d", &n);
-    int arr[size];  
+    int arr[n];  
     for (int i = 0; i < n; i++) {
         scanf("%d", &arr[i]);
     }
