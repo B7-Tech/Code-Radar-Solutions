@@ -1,5 +1,6 @@
 #include <stdio.h>
-int is_palindrome(int arr[], int n) {
+#include <stdbool.h>
+bool is_palindrome(int arr[], int n) {
     for (int i = 0; i < n / 2; i++) {   
         if (arr[i] != arr[n - i - 1]) {  
             return false;  
