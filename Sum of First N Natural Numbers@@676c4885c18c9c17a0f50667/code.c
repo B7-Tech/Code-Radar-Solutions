@@ -1,7 +1,7 @@
 #include <stdio.h>
 int main(){
-    int i, N, sum = 0;
-    scanf("%d", &N);
+    int i, n, sum = 0;
+    scanf("%d", &n);
     for(i = 0; i<n; i++){
         sum += n[i];
     }
