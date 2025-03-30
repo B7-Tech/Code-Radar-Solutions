@@ -10,7 +10,7 @@ int main(){
             printf("*");
         }
         for(j = i-1; j>= 1; j--){
-            printf("*");
+            printf(" *");
         }
         printf("\n");
     }
