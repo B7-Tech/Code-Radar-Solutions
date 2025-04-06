@@ -6,4 +6,5 @@ int main(){
     fgets(name);
     count = strlen(name);
     printf("%d", count);
+    return 0;
 }
