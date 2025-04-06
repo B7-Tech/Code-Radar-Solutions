@@ -2,8 +2,8 @@
 #include <string.h>
 int main(){
     int count = 0;
-    char name[100];
-    scanf("%s", name);
+    char name[30];
+    gets(name);
     count = strlen(name);
     printf("%d", count);
 }
