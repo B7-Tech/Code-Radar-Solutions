@@ -16,7 +16,6 @@
 int main() {
     char str[100];
     fgets(str, sizeof(str), stdin);
-    str[strcspn(str, "\n")] = '\0';
     int length = strlen(str);
     printf("%d", length);
     return 0;
