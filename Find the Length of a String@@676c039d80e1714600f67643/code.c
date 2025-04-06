@@ -1,12 +1,12 @@
 #include <stdio.h>
-#include <string.h>
-int main(){
-    int count = 0, i = 0;
-    char name[30];
-    gets(name);
-    while(name[i] != '\0'){
-        count ++;
-        i++;
+
+int main() {
+    char str[100];
+    int length = 0;
+    fgets(str, sizeof(str), stdin); 
+    while (str[length] != '\0') {
+        length++;
     }
-    printf("%d" , count);
+    printf("%d", length);
+    return 0;
 }
