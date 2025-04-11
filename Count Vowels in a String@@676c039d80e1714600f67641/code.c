@@ -15,7 +15,7 @@ int countVowels(const char *str) {
 
 int main() {
     char str[100];
-    fgets(str, sizeof(str), stdin); s
+    fgets(str, sizeof(str), stdin);
     int vowels = countVowels(str);
     printf("%d", vowels);
     return 0;
