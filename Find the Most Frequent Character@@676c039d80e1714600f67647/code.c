@@ -16,7 +16,7 @@ int main() {
         }
     }
 
-    printf("%d", mostFreq);
+    printf("%c", mostFreq);
     return 0;
 }
 }
