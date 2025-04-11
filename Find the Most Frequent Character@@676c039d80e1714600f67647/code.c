@@ -17,7 +17,10 @@ char maxOccurringChar(char str[]) {
 }
 
 int main() {
-    char str[] = "takeuforward";
-    printf("Maximum o%c", maxOccurringChar(str));
+    char str[100];
+    fgets(str, sizeof(str), stdin);
+     char result = maxOccurringChar(str);
+    printf("%c", result);
+
     return 0;
 }
