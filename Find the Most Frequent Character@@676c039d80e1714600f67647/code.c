@@ -1,22 +1,23 @@
 #include <stdio.h>
 #include <string.h>
 
-int main() {
-    char str[1000];
-    int freq[256] = {0}; 
-    int max = 0;
-    char mostFreq;
-    fgets(str, sizeof(str), stdin);
+char maxOccurringChar(char str[]) {
+    char ans = '\0';
+    int maxfreq = 0;
+    int count[256] = {0};
+
     for (int i = 0; str[i] != '\0'; i++) {
-        freq[(unsigned char)str[i]]++;
-    for (int i = 0; i < 256; i++) {
-        if (freq[i] > max) {
-            max = freq[i];
-            mostFreq = i;
+        count[(unsigned char)str[i]]++;
+        if (count[(unsigned char)str[i]] > maxfreq) {
+            maxfreq = count[(unsigned char)str[i]];
+            ans = str[i];
         }
     }
-
-    printf("%c", mostFreq);
-    return 0;
+    return ans;
 }
+
+int main() {
+    char str[] = "takeuforward";
+    printf("Maximum o%c", maxOccurringChar(str));
+    return 0;
 }
